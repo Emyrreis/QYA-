@@ -7,7 +7,7 @@ API assíncrona para disparo de notificações por **E-mail** e **SMS**, constru
 
 ---
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 ```
 FastAPI  ──►  BackgroundTasks / Celery  ──►  Redis/RabbitMQ (Broker)
@@ -24,7 +24,7 @@ FastAPI  ──►  BackgroundTasks / Celery  ──►  Redis/RabbitMQ (Broker)
 
 ---
 
-## 🚀 Como rodar
+## Como rodar
 
 ### Localmente (sem Docker)
 
@@ -56,7 +56,7 @@ Serviços disponíveis:
 
 ---
 
-## 📡 Endpoints
+## Endpoints
 
 | Método | Rota | Descrição |
 |--------|------|-----------|
@@ -80,7 +80,7 @@ curl -X POST http://localhost:8000/notifications/ \
 
 ---
 
-## 🧪 Testes
+## Testes
 
 ```bash
 # Rodar todos os testes com cobertura
@@ -143,7 +143,7 @@ O pipeline roda automaticamente em `push` para `main` / `develop`:
 
 ---
 
-## 🔒 Riscos & Ética
+## Riscos & Ética
 
 - Consentimento simulado para envio de mensagens
 - Privacidade de números de telefone (não logados)
